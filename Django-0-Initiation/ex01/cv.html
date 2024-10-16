@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James Sullivan</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        gap: 20px;
+      }
+      .main-content {
+        grid-column: 1 / 2;
+      }
+      .photo-container {
+        grid-column: 2 / 3;
+        align-self: start;
+        position: sticky;
+        top: 20px;
+      }
+      .photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #424242;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-content">
+        <header>
+          <h1>James P. Sullivan</h1>
+          <p>CEO of Monsters, Inc.</p>
+        </header>
+
+        <main>
+          <section>
+            <h2>Skills</h2>
+            <ul>
+              <li>Roaring</li>
+              <li>
+                Zombie Snarl: Hold your arms over your head, hang your tongue,
+                and snarl
+              </li>
+              <li>Jazz Clown: Do jazz hands, a derpy face, and hiss</li>
+              <li>
+                Angry Poodle: Stand on all fours, bowlegged, fists turned in,
+                back and tail straight (if any), and growl.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Career Path</h2>
+            <ol>
+              <li>CEO at Monsters, Inc (2001 - present)</li>
+              <li>Scarer at Monsters, Inc (1998 - 2001)</li>
+              <li>Mailman at Monsters, Inc (1995 - 1998)</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>Education</h2>
+            <table style="width: 100%">
+              <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+              </tr>
+              <tr>
+                <td>Bachelor of Scarer (School of Scaring)</td>
+                <td>Monsters University</td>
+                <td style="border-color: #424242">1995 (expelled)</td>
+              </tr>
+            </table>
+          </section>
+        </main>
+      </div>
+
+      <div class="photo-container">
+        <img src="./sulley.png" alt="Jame Sullivan" class="photo" />
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- tr: table row | td : table data | th : table header -  bold by default -->
+<!-- ul: Unordered List | ol : ordered List | li : List Item-->
