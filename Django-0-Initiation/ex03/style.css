@@ -153,9 +153,6 @@ p[data-value]:after {
 }
 
 
-
-
-
 .html5::-webkit-progress-value,
 .python::-webkit-progress-value  {
 	/* Gradient background with Stripes */
