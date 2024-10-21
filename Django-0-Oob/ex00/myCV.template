@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>{title}</h1>
+    <h2>My CV Template</h2>
+    <p>Name: {name}</p>
+    <p>Surname: {surname}</p>
+    <p>Age: {age}</p>
+    <p>Profession: {profession}</p>
+</body>
+</html>
