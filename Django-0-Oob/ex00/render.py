@@ -3,7 +3,7 @@ import sys
 import re
 import settings
 
-
+#https://stackoverflow.com/questions/2146618/raising-an-exception-vs-printing
 def process_template(template_path):
     if not template_path.endswith(".template"):
         raise ValueError("Wrong extension, required: .template")
